@@ -1,1 +1,43 @@
+Initially 
+
+Be sure that your system having node and node package manager...
+
+How to check:
+
+1. node -v
+
+2. npm -v
+
+These to commands will show the version if they are already installed in your system.
+
+Now
+
+for creating react-app
+
+"npx create-react-app <your app name>" then press Enter
+
+Now a folder will be created in your current working directory
+
+Then navigate to the directory by giving the command...
+
+<cd <your app name>>
+
+Now run <npm install framer-motion> this command 
+
+Optional:..
+
+If you got any error like web-vitals
+
+the run this command
+
+<npm install web-vitals>
+
+If you want to run your react-app then run
+
+npm start
+
+
+
+
+
 
