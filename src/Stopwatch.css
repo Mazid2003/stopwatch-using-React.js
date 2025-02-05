@@ -1,0 +1,101 @@
+/* Background Styling */
+body {
+    background: radial-gradient(circle, #0f0f0f 30%, #1a1a1a 90%);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container */
+  .container {
+    background: linear-gradient(135deg, #111, #222);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+    width: 350px;
+    animation: float 3s ease-in-out infinite alternate;
+  }
+  
+  /* Floating Effect */
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-10px); }
+  }
+  
+  /* Title */
+  .title {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+    margin-bottom: 20px;
+  }
+  
+  /* Timer */
+  .timer {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 0 15px cyan, 0 0 30px cyan;
+    margin-bottom: 30px;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  /* Start Button */
+  .start {
+    background: linear-gradient(135deg, #00ff7f, #00cc66);
+    box-shadow: 0 0 10px #00ff7f, 0 0 20px #00ff7f;
+    color: black;
+  }
+  
+  .start:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #00ff7f, 0 0 30px #00ff7f;
+  }
+  
+  /* Stop Button */
+  .stop {
+    background: linear-gradient(135deg, #ff4444, #cc0000);
+    box-shadow: 0 0 10px #ff4444, 0 0 20px #ff4444;
+    color: white;
+  }
+  
+  .stop:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff4444, 0 0 30px #ff4444;
+  }
+  
+  /* Reset Button */
+  .reset {
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+    color: black;
+  }
+  
+  .reset:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffcc00, 0 0 30px #ffcc00;
+  }
+  
