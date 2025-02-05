@@ -22,12 +22,19 @@ CSS3 (Basic Styling for Buttons & Timer Display)
 
 /stopwatch
 │── /src
+
 │   ├── Stopwatch.js  # Main Stopwatch Component
+
 |   ├── Stopwatch.css  # for Styling
+
 │   ├── App.js  # Renders Stopwatch Component
+
 │   ├── index.js  # React Entry Point
+
 │── /public
+
 │── package.json  # Project Dependencies
+
 │── README.md  # Project Documentation
 
 **📜 Installation & Setup**
