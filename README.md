@@ -1,4 +1,4 @@
-**⏱️ React Stopwatch**
+#⏱️ React Stopwatch
 
 A simple and efficient stopwatch built using React.js with millisecond precision. This project leverages React Hooks (useState, useEffect) for managing state and timing updates.
 
