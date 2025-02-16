@@ -21,6 +21,7 @@ CSS3 (Basic Styling for Buttons & Timer Display)
 📂 Project Structure
 
 /stopwatch
+
 │── /src
 
 │   ├── Stopwatch.js  # Main Stopwatch Component
