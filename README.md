@@ -42,7 +42,7 @@ CSS3 (Basic Styling for Buttons & Timer Display)
 
 # Clone the repository
 
-git clone https://github.com/Mazid2003/stopwatch-react.git
+git clone https://github.com/Mazid2003/stopwatch-using-React.js.git
 
 # Navigate to project directory
 cd stopwatch
